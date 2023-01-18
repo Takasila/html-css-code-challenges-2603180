@@ -1,0 +1,26 @@
+<!-- Epub Kapitel 3. -->
+
+<!doctype html> <!-- Anweisung für den Webbrowser, in welcher HTML-Version die Webseite erstellt wurde. -->
+
+<html lang="de"> <!-- Sprache festlegen. -->
+
+
+  <head>
+	<title>Basis Html</title>
+	
+	<script type="text/javascript">    <!-- Javascript aktiviert?. -->
+      window.onload=alert("JavaScript ist aktiviert!")   
+    </script>
+	
+    <meta charset="UTF-8"> <!-- Zeichenkodierung. -->	
+	<link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link muss vor base href stehen. -->
+	<base href="https://meine_website.at/"
+          target="_blank"> <!-- Basis Adresse. -->	
+  </head>
+  
+  <body>  
+    <h1>Eine Überschrift</h1>
+    <p>Hier steht ein formatierter Absatztext.</p>	
+  </body>
+  
+</html>
